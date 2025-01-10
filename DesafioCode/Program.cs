@@ -1,8 +1,12 @@
 ﻿public class Program
 {
-    public static void Main()
+    public void Main()
     {
-        //Teste aqui na main chamando os métodos
+        //Testes aqui
+        Finobacci(2);
+        InverterString("banana");
+        ResumoMensal();
+        PercentualRepresentacao();
     }
 
     public string Finobacci(int numero)
